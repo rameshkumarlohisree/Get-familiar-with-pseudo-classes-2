@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <style>
+          input[type="text"]{border: 3px solid goldenrod;}
+          ul>li{font-size: 20px;}
+          h1+p{color: blueviolet;}
+          p::before{content: Sri;}
+          p::after{content: Sri;}
+          p::first-letter{font-size: 30px;}
+          a:hover{color: aqua;}
+          li:nth-child(1){color: green;}
+          li:nth-child(2){color: orangered;}
+          p:not(.c1){background-color: orangered;}
+          p:not(.c2){background-color: greenyellow;}
+        </style>
+    </head>
+    <body>
+      <form>
+        Name of your favourit freedom Fighter:<input type="text">
+      </form>
+      <centre>
+        <h1 style="color: brown;">Freedom Fighters</h1>
+      </centre>
+      <ul>
+        <li>Mahatma Gandhi</li>
+        <li>Rani Lakashmibai</li>
+      </ul>
+        <p class="c1">Mohandas Karamchand Gandhi (ISO: Mōhanadāsa Karamacaṁda Gāṁdhī;[c] 2 October 1869 – 30 January 1948) was an Indian
+        lawyer, anti-colonial nationalist, and political ethicist who employed nonviolent resistance to lead the successful
+        campaign for India's independence from British rule. He inspired movements for civil rights and freedom across the
+        world. The honorific Mahātmā (from Sanskrit, meaning great-souled or venerable), first applied to him in South Africa in
+        1914, is now used throughout the world.</p>
+        <p class="c2">Lakshmibai Newalkar, the Rani of Jhansi or Jhansi ki Rani widely known as Rani Lakshmibai (pronunciation born
+        Manikarnika Tambe; 19 November 1828 — 18 June 1858),[1][2] was the Maharani consort of the princely state of Jhansi in
+        the Maratha Empire from 1843 to 1853 by marriage to Maharaja Gangadhar Rao Newalkar. She was one of the leading figures
+        in the Indian Rebellion of 1857, who became a national hero and symbol of resistance to the British rule in India for
+        Indian nationalists.</p>
+        <a href="pseudo classes">Click here</a>
+    </body>
+</html>
